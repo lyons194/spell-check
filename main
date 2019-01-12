@@ -1,0 +1,14 @@
+#Beginning of spell check program.
+
+if 1:
+	def a():
+		a_a = input("What is your name?: ")
+		a_check = list(a_a)
+		if a_check[0] != "S":
+			return("Did you mean to write 'Sean'?")
+		if a_check[1] != "e":
+			return("Did you mean to write 'Sean'?")
+		if a_check[2] != "a":
+			return("Did you mean to write 'Sean'?")
+		if a_check[3] != "n":
+			return("Did you mean to write 'Sean'?")
