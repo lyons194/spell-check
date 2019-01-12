@@ -32,3 +32,18 @@ if 1:
 			return("Did you mean to write 'Sean'?")
 		if a_check[3] != "n":
 			return("Did you mean to write 'Sean'?")
+
+#Updated portion of the program below:
+
+def prompt():
+	a_mem = ["aardvark", "Achilles", "Aaron"]
+	query = input(" ")
+	if query.count(a_mem[0]) > 0:
+		print(a_mem[0])
+	counter = len(a_mem[0])
+	lister = list(query)
+	mem_lister1 = list(a_mem[0])
+	print(lister)
+	print(mem_lister1)
+	if lister[0] != mem_lister1[0]:
+		print("Did you mean to write aardvark?")
