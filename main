@@ -45,3 +45,38 @@ def prompt():
 	mem_lister1 = list(a_mem[0])
 	if lister[0] != mem_lister1[0]:
 		print("Did you mean to write aardvark?")
+
+#Updated portion of the program below:
+
+def prompt():
+	a_mem = ["aardvark", "Achilles", "Aaron"]
+	query = input(" ")
+	if query.count(a_mem[0]) > 0:
+		print(a_mem[0])
+	counter = len(a_mem[0])
+	lister = list(query)
+	mem_lister1 = list(a_mem[0])
+	if lister[0] != mem_lister1[0]:
+		print("\n"*10)
+		print("Did you mean to write 'aardvark'?")
+	if lister[1] != mem_lister1[1]:
+		print("\n"*10)
+		print("Did you mean to write 'aardvark'?")
+	if lister[2] != mem_lister1[2]:
+		print("\n"*10)
+		print("Did you mean to write 'aardvark'?")
+	if lister[3] != mem_lister1[3]:
+		print("\n"*10)
+		print("Did you mean to write 'aardvark'?")
+	if lister[4] != mem_lister1[4]:
+		print("\n"*10)
+		print("Did you mean to write 'aardvark'?")
+	if lister[5] != mem_lister1[5]:
+		print("\n"*10)
+		print("Did you mean to write 'aardvark'?")
+	if lister[6] != mem_lister1[6]:
+		print("\n"*10)
+		print("Did you mean to write 'aardvark'?")
+	if lister[7] != mem_lister1[7]:
+		print("\n"*10)
+		print("Did you mean to write 'aardvark'?")
