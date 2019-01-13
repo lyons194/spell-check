@@ -50,7 +50,7 @@ def prompt():
 
 def prompt():
 	a_mem = ["aardvark", "Achilles", "Aaron"]
-	query = input(" ")
+	query = input("Q: ")
 	if query.count(a_mem[0]) > 0:
 		print(a_mem[0])
 	counter = len(a_mem[0])
