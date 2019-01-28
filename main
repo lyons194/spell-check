@@ -33,7 +33,7 @@ if 1:
 		if a_check[3] != "n":
 			return("Did you mean to write 'Sean'?")
 
-#Updated portion of the program below:
+#Updated portion of the program below.  (Updated on 1-27-2019.)
 
 def prompt():
 	def spacer():
