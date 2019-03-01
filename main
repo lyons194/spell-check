@@ -1,43 +1,11 @@
 #Beginning of spell check program.
 
-if 1:
-	def mem():
-		mem_list = []
-		mem_count = mem_list.count()
-	while 1:
-		prompt = input(" ")
-		print(prompt)
-		mem_list.append(prompt)
-		print(mem_list)
-	def a_list():
-		a_1 = "alphabet"
-		a_2 = "alligator"
-		a_3 = "aardvark"
-	def b_list():
-		b_1 = "book"
-		b_2 = "bill"
-		b_3 = "buffalo"
-	def c_list():
-		c_1 = "cook"
-		c_2 = "crayon"
-		c_3 = "crazy"
-	def a():
-		a_a = input("What is your name?: ")
-		a_check = list(a_a)
-		if a_check[0] != "S":
-			return("Did you mean to write 'Sean'?")
-		if a_check[1] != "e":
-			return("Did you mean to write 'Sean'?")
-		if a_check[2] != "a":
-			return("Did you mean to write 'Sean'?")
-		if a_check[3] != "n":
-			return("Did you mean to write 'Sean'?")
-
-#Updated portion of the program below.  (Updated on 1-27-2019.)
+#Updated portion of the program below.  (Updated on 3-1-2019.)
 
 def prompt():
 	def spacer():
 		print("\n"*5)
+	#Note:  This version of the program only recognizes 'aardvark'.  Spell 'aardvark' wrong by one letter (doesn't matter which letter), and the program will correct you.
 	a_mem = ["aardvark", "Achilles", "Aaron"]
 	spacer(); query = input("Q: "); spacer()
 	if query.count(a_mem[0]) > 0:
